@@ -1,0 +1,155 @@
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
+  display: block;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+#wrapper {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #000000;
+  background-color: #F4F4F4;
+  /*height:100%;*/
+  height: 100vh;
+}
+
+#sidebar {
+  text-align: center;
+  color:#777777;
+}
+.photo {
+  padding: 140px 0px 10px 0px;
+}
+.photome {
+   border-radius: 100px;
+}
+h2 {
+}
+#sidebar h4 {
+  padding-top: 2px;
+  line-height: 0.7em;
+  font-style: italic;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.link{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.link-icon {
+  color: #000000;
+  margin-right: 15px;
+  font-size: 160%;
+}
+.about__one {
+  margin-top: 45px;
+  font-weight: 900;
+}
+.about__two {
+  font-weight: 900;
+}
+#sidebar p{
+  font-size: 17px;
+}
+.skillset {
+  padding-right: 39px;
+}
+.skill {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+  list-style: none;
+}
+.project:first-child{
+  margin-left: 20px;
+}
+.project {
+  margin-left: 65px;
+  margin-top: 130px;
+  width: 270px;
+  padding:0px;
+  box-shadow: 1px 1px 1px #bdc3c7;
+  background-color: #ffffff;
+  transition: all .3s ease-out;
+}
+.info__icon {
+  display: none;
+  font-size: 350%;
+}
+.project:hover {
+  box-shadow: 0px 0px 7px #777777;
+}
+.projectone:hover .info__icon {
+  display: inline;
+  position: absolute;
+  top: 100px;
+  left: 115px;
+  opacity: .9;
+}
+.projecttwo:hover .info__icon {
+  display: inline;
+  position: absolute;
+  top: 63px;
+  left: 115px;
+  opacity: .9;
+}
+.projectthree:hover .info__icon {
+  display: inline;
+  position: absolute;
+  top: 75px;
+  left: 115px;
+  opacity: .9;
+}
+.photo__project{
+  transition: all .2s ease-out;
+}
+.project:hover .photo__project {
+  opacity: 0.3;
+}
+.projectone {
+  height: 500px;
+}
+.projecttwo {
+  height: 350px;
+}
+.projectthree {
+  height: 400px;
+}
+.projectone .project__text {
+  height: 50%;
+  padding:15px 10px 0px 12px;
+}
+.projecttwo .project__text {
+  height: 50%;
+  padding:10px 10px 0px 12px;
+}
+.projectthree .project__text {
+  height: 50%;
+  padding:10px 10px 0px 12px;
+}
+.project__text p {
+  color: #999;
+  font-size: 18px;
+}
+.project__photo {
+  height: 50%;
+}
+.a__head:hover {
+  text-decoration:none
+}
+.a__head h4 {
+  font-weight: 900;
+  color:black;
+  letter-spacing: .01em;
+  font-size: 18px;
+  text-transform: uppercase;
+}
