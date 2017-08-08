@@ -262,3 +262,8 @@ a{
   animation-duration: 2s;
   animation-iteration-count: 1;
 }
+#wrapper {
+  animation-delay:0.8s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
