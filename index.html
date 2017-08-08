@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vadikcorp</title>
-    <!-- Google fonts - Open Sans-->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic"> -->
+
     <!-- LATO -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900,900i" rel="stylesheet">
     <!-- Bootstrap -->
@@ -15,6 +14,8 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- ANIMATE.CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 </head>
 <body>
   <div id="wrapper">
@@ -23,17 +24,17 @@
       <div class="row">
         <!-- ***SIDEBAR*** -->
         <div id="sidebar" class="col-xs-12 col-sm-5 col-md-3 col-lg-4">
-          <div class="photo"><img src="img/me.jpg" alt="This is me" class="photome" height="182px" width="182px"></div>
-          <h2>Vadym Vasko</h2>
-          <h4>Lviv, Ukraine</h4>
-          <div class="link">
-            <a target="_blank" href="http://telegram.me/vadikcorp"><i class="fa fa-telegram link-icon" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/vadym-vasko-649726134/"><i class="fa fa-linkedin-square link-icon" aria-hidden="true"></i></a>
-            <a target="_blank" href="http://github.com/vadikcorp"><i class="fa fa-github link-icon" aria-hidden="true"></i></a>
-            <a href="mailto:vadum.vasko@gmail.com"><i class="fa fa-envelope link-icon" aria-hidden="true"></i></a>
+          <div class="photo"><img src="img/me.jpg" alt="This is me" id="profile-1" class="animated fadeIn photome" height="182px" width="182px"></div>
+          <h2 id="profile-2" class="animated fadeIn">Vadym Vasko</h2>
+          <h4 id="profile-3" class="animated fadeIn">Lviv, Ukraine</h4>
+          <div class="link ">
+            <a target="_blank" href="http://telegram.me/vadikcorp"><i  id="iconanim"class="animated fadeIn fa fa-telegram link-icon" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/vadym-vasko-649726134/"><i class="animated fadeIn fa fa-linkedin-square link-icon" id="iconanim" aria-hidden="true"></i></a>
+            <a target="_blank" href="http://github.com/vadikcorp"><i  id="iconanim"class="animated fadeIn fa fa-github link-icon" aria-hidden="true"></i></a>
+            <a href="mailto:vadum.vasko@gmail.com"><i class="animated fadeIn fa fa-envelope link-icon" id="iconanim" aria-hidden="true"></i></a>
           </div>
-          <p class="about__one">I'm currently using</p>
-          <ul class="skillset">
+          <p class="animated fadeIn about__one" id="text-area-1">I'm currently using</p>
+          <ul class="animated fadeIn skillset" id="text-area-2">
             <li class="skill">HTML5</li>
             <li class="skill">CSS3</li>
             <li class="skill">JavaScript</li>
@@ -45,11 +46,12 @@
             <li class="skill">Flexbox</li>
             <li class="skill">Adobe Photoshop</li>
           </ul>
-          <p class="about__two">I've experimented with</p>
-          <ul class="skillset">
+          <p class="animated fadeIn about__two" id="text-area-3">I've experimented with</p>
+          <ul class="animated fadeIn skillset" id="text-area-4">
             <li class="skill">Sass</li>
             <li class="skill">ES6</li>
             <li class="skill">Flexbox</li>
+            <br>
             <li class="skill">Responsive Design</li>
             <br>
             <li class="skill">Jquery</li>
@@ -57,13 +59,12 @@
         </div>
         <!-- ***SIDEBAR END*** -->
         <!-- ***CONTENT*** -->
-        <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
-
-        <div class="grid">
+        <div class="col-xs-12 col-sm-7   col-md-8 col-lg-8">
+          <div class="grid">
 
             <div class="row">
             <!-- PROJECT ONE -->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 project projectone">
+            <div id="section-1" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 project projectone  animated slideInDown">
 
               <div class="project__photo">
 
@@ -78,7 +79,7 @@
 
             </div>
             <!-- PROJECT TWO -->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 project projecttwo">
+            <div id="section-2" class="animated slideInDown col-xs-12 col-sm-12 col-md-6 col-lg-3 project projecttwo">
 
               <div class="project__photo">
 
@@ -95,18 +96,18 @@
             </div>
 
             <!-- PROJECT THREE -->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 project projectthree">
+            <div id="section-3"   class="animated slideInDown   col-xs-12 col-sm-12 col-md-6 col-lg-3 project projectthree">
 
               <div class="project__photo">
 
                 <i class="info__icon fa fa-chevron-right" aria-hidden="true"></i>
                 <a href="">
-                  <img class="photo__project" src="img/projectcypher.jpg" alt="project cypherlab" width="100%" height="100%"></a>
+                  <img class="photo__project" src="img/miami.jpg" alt="project cypherlab" width="100%" height="100%"></a>
 
               </div>
               <div class="project__text">
-                <a href="" class="a__head"><h4>Methods of encrypting and decrypting text messages</h4></a>
-                <p>This is my practical work on the subject of information protection at the university.</p>
+                <a href="" class="a__head"><h4>Free template</h4></a>
+                <p>This is just test my skill using free template.</p>
               </div>
 
             </div>

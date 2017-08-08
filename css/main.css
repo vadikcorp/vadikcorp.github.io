@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
   display: block;
+  background-color: #F4F4F4;
 }
 html {
   box-sizing: border-box;
@@ -15,7 +16,6 @@ html {
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
-  background-color: #F4F4F4;
   height: 100vh;
   /*height:100%;*/
 }
@@ -29,7 +29,7 @@ html {
   margin-top: 130px;
 }
 .photo {
-  padding: 140px 0px 10px 0px;
+  padding: 130px 0px 10px 0px;
 }
 .photome {
    border-radius: 100px;
@@ -76,10 +76,10 @@ a{
 }
 .project {
     z-index: 100;
-  margin-left: 65px;
+  margin-left: 85px;
   margin-bottom: 30px;
   margin-top: 5px;
-  margin-right: 0;
+  margin-right: 40px;
   padding:0px;
   width: 270px;
   background-color: #ffffff;
@@ -169,7 +169,7 @@ a{
   text-transform: uppercase;
 }
 
-/*Adaptive @screen-sm-min*/
+/*Adaptive MEDIA KEY*/
 /*
 @media (max-width: 767px) {
   .projectone {
@@ -178,7 +178,7 @@ a{
 }*/
 @media (max-width: 767px) {
   .project{
-    margin-left:25px;
+    margin: -30px 30px 70px 50px;
   }
   .photo {
     margin-top: -80px;
@@ -187,28 +187,13 @@ a{
     margin-top: 15px
   }
 }
-/*@media (min-width: 1441px) {
-  #wrapper {
-    height:100vh;
-  }
-}*/
-@media (max-width: 1280px) {
-  #wrapper {
-    height:100%;
-  }
-}
 
-@media (min-width: 560px) {
-  .project {
-    margin-left: 150px;
-  }
-}
 @media (min-width: 320px) {
   .project {
     margin-left: 25px;
   }
 }
-
+/*PARTICLES JS LIBARY*/
 #particles-js {
   position: fixed;
   width: 100%;
@@ -220,4 +205,60 @@ a{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+/*ANIMATION.CSS*/
+#section-1 {
+  animation-delay:0s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#section-2 {
+  animation-delay:1s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#section-3 {
+  animation-delay:1.5s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#profile-1{
+  animation-delay:1s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#profile-2{
+  animation-delay:1.5s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#profile-3{
+  animation-delay:2s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#iconanim {
+  animation-delay:3s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+#text-area-1 {
+  animation-delay:3s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#text-area-2 {
+  animation-delay:3.5s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#text-area-3 {
+  animation-delay:4s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+#text-area-4 {
+  animation-delay:4.5s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
