@@ -1,0 +1,8 @@
+# ignoring bootstrap css file
+css/bootstrap/*
+# ignoring bootstrap js file
+js/bootstrap/*
+# ignoring font-awesome
+font-awesome-4.7.0/*
+# ignoring images
+img/*
