@@ -43,9 +43,10 @@
     },
     "move":{
       "enable":true,
-      "speed":4,
+      "speed":3.5,
       "direction":"bottom-right",
       "straight":false
     }
   }
+
 }
