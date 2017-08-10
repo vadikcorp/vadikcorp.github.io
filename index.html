@@ -21,20 +21,21 @@
 </head>
 <body>
   <div id="wrapper">
-
     <div class="container-fluid">
       <div class="row">
         <!-- ***SIDEBAR*** -->
-        <div id="sidebar" class="col-xs-12 col-sm-5 col-md-3 col-lg-4">
-          <div class="photo"><img src="img/me.jpg" alt="This is me" id="profile-1" class="animated fadeIn photome" height="182px" width="182px"></div>
+        <div id="sidebar" class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+          <div class="photo"><img src="img/me.jpg" alt="This is me" id="profile-1" class="animated fadeIn photome" height="142px" width="142px"></div>
           <h2 id="profile-2" class="animated fadeIn">Vadym Vasko</h2>
           <h4 id="profile-3" class="animated fadeIn">Lviv, Ukraine</h4>
+          <!-- Link-telegran+linkedin+github+mail -->
           <div class="link ">
             <a target="_blank" href="http://telegram.me/vadikcorp"><i  id="iconanim"class="animated fadeIn fa fa-telegram link-icon" aria-hidden="true"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/vadym-vasko-649726134/"><i class="animated fadeIn fa fa-linkedin-square link-icon" id="iconanim" aria-hidden="true"></i></a>
             <a target="_blank" href="http://github.com/vadikcorp"><i  id="iconanim"class="animated fadeIn fa fa-github link-icon" aria-hidden="true"></i></a>
             <a href="mailto:vadum.vasko@gmail.com"><i class="animated fadeIn fa fa-envelope link-icon" id="iconanim" aria-hidden="true"></i></a>
           </div>
+          <!-- My skill -->
           <p class="animated fadeIn about__one" id="text-area-1">I'm currently using</p>
           <ul class="animated fadeIn skillset" id="text-area-2">
             <li class="skill">HTML5</li>
@@ -61,85 +62,80 @@
         </div>
         <!-- ***SIDEBAR END*** -->
         <!-- ***CONTENT*** -->
-        <div class="col-xs-12 col-sm-7 col-md-9 col-lg-8">
+        <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8">
           <div class="grid">
 
             <div class="row">
-            <!-- PROJECT ONE -->
-            <div id="section-1" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 project projectone  animated fadeInDown">
+              <!-- PROJECT ONE -->
+              <div id="section-1" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 project projectone animated fadeInDown">
 
-              <div class="project__photo">
+                <div class="project__photo">
+                  <a href=""><img class="photo__project" src="img/projectcypher.jpg" alt="project cypherlab" width="100%" height="100%"></a>
+                </div>
 
-                <i class="info__icon fa fa-chevron-right" aria-hidden="true"></i>
-                <a href=""><img class="photo__project" src="img/projectcypher.jpg" alt="project cypherlab" width="100%" height="100%"></a>
+                <div class="project__text">
+                  <a href="https://vadikcorp.github.io/cyphers" class="a__head"><h4>Methods of encrypting and decrypting text messages</h4></a>
+                  <p>This is my practical work on the subject of information protection at the university.</p>
+                </div>
+
+                <div class="view">
+                  <a href="https://vadikcorp.github.io/" target="_blank"><input type="button" name="view" value="view" class="button-css"></a>
+                  <br>
+                  <a href="https://github.com/vadikcorp/vadikcorp.github.io" target="_blank"><input type="button" name="viewgit" value="view on github" class="button-css"</a>
+                </div>
+                <!-- link__view -->
+              </div>
+              <!-- PROJECT TWO -->
+              <div id="section-2" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 project projecttwo animated fadeInDown">
+
+                <div class="project__photo">
+                  <a href="">
+                    <img class="photo__project" src="img/miami.jpg" alt="project miami" width="100%" height="100%"></a>
+                </div>
+
+                <div class="project__text">
+                  <a href="" class="a__head"><h4>Free template</h4></a>
+                  <p>This is test my skill using free psd template.</p>
+                </div>
+
+                <div class="view">
+                  <input type="button" name="view" value="view" class="button-css">
+                  <br>
+                  <input type="button" name="viewgit" value="view on github" class="button-css">
+                </div>
 
               </div>
-              <div class="project__text">
-                <a href="" class="a__head"><h4>Methods of encrypting and decrypting text messages</h4></a>
-                <p>This is my practical work on the subject of information protection at the university.</p>
-              </div>
+              <!-- PROJECT THREE -->
+              <div id="section-3" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 project projectthree animated fadeInDown">
 
+                <div class="project__photo">
+                  <a href="">
+                    <img class="photo__project" src="img/telegram.png" alt="project telegram_chatbot" width="100%" height="100%"></a>
+                </div>
+
+                <div class="project__text">
+                  <a href="" class="a__head"><h4>Chatbot via Telegram</h4></a>
+                  <p>Chatbot "NULP Help" is designed to facilitate student's life. Chatbot was created via Telegram</p>
+                </div>
+
+                <div class="view">
+                  <input type="button" name="view" value="view" class="button-css">
+                  <br>
+                  <input type="button" name="viewgit" value="view on github" class="button-css">
+                </div>
+
+              </div>
             </div>
-            <!-- PROJECT TWO -->
-            <div id="section-2" class="animated fadeInDown col-xs-12 col-sm-12 col-md-6 col-lg-3 project projecttwo">
 
-              <div class="project__photo">
-
-                <i class="info__icon fa fa-chevron-right" aria-hidden="true"></i>
-                <a href="">
-                  <img class="photo__project" src="img/telegram.png" alt="project cypherlab" width="100%" height="100%"></a>
-
-              </div>
-              <div class="project__text">
-                <a href="" class="a__head"><h4>Chatbot via Telegram</h4></a>
-                <p>Chatbot "NULP Help" is designed to facilitate student's life. Chatbot was created via Telegram</p>
-              </div>
-
-            </div>
-
-            <!-- PROJECT THREE -->
-            <div id="section-3"   class="animated fadeInDown   col-xs-12 col-sm-12 col-md-6 col-lg-3 project projectthree">
-
-              <div class="project__photo">
-
-                <i class="info__icon fa fa-chevron-right" aria-hidden="true"></i>
-                <a href="">
-                  <img class="photo__project" src="img/miami.jpg" alt="project cypherlab" width="100%" height="100%"></a>
-
-              </div>
-              <div class="project__text">
-                <a href="" class="a__head"><h4>Free template</h4></a>
-                <p>This is just test my skill using free template.</p>
-              </div>
-
-            </div>
-            <!-- PROJECT fOUR -->
-            <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 project projectfour">
-
-              <div class="project__photo">
-
-                <i class="info__icon fa fa-chevron-right" aria-hidden="true"></i>
-                <a href="">
-                  <img class="photo__project" src="img/telegram.png" alt="project cypherlab" width="100%" height="100%"></a>
-
-              </div>
-              <div class="project__text">
-                <a href="" class="a__head"><h4>GAV GAVG GAV GAV</h4></a>
-                <p>This is my practical work on the subject of information protection at the university.</p>
-              </div>
-
-            </div> -->
-
-            </div>
           </div>
-
         </div>
         <!-- ***CONTENT END*** -->
       </div>
     </div>
   </div>
-    <div id="particles-js">
-    </div>
+  <!-- Particles-js div -->
+    <div id="particles-js"></div>
+
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script>
     particlesJS.load('particles-js', 'particles.json', function(){
