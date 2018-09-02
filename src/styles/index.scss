@@ -1,0 +1,132 @@
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.contact {
+  padding: 100px 0px;
+  grid-column: 1 / 4;
+  grid-row: 1 / 13; 
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #000;
+  text-align: center;
+  &__item {
+    color:#777777;
+    &_photo {
+      background: url('../img/me.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 150px;
+      width: 150px;
+      border-radius: 100px;
+      margin-bottom: 15px;
+    }
+    &_name {
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+    &_location {
+      font-weight: 700;
+      font-style: italic;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    &_contact {
+      display: flex;
+      justify-content: center;
+    }
+    .contact__icon {
+      margin: 0px 7px;
+      i {
+        font-size: 20px;
+        color: #000;
+
+      }
+    }
+  }
+}
+
+.portfolio {
+  grid-column: 4 / 13;
+  grid-row: 1 / 13;
+  border: 1px solid red;
+  padding-top: 100px;
+  &-container {
+    min-height: 200px;
+    border-radius: 10px;
+    z-index: 100;
+    width: 220px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px #bdc3c7;
+    transition: all .3s ease-out;
+    &:hover {
+      box-shadow: 2px 2px 30px #777;
+    }
+    &__photo {
+      background: url('../img/me.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 130px;
+      width: 220px;
+    }
+    .portfolio-container-info {
+      display: flex;
+      flex-direction: column;
+      padding: 15px 30px;
+      & > div {
+        margin-bottom: 5px;
+        text-align: center;
+      }
+      &__header {
+        h3 {
+          margin: 0;  
+        }
+      }
+      &__link {
+        display: flex;
+        flex-direction: column;
+        &_site {
+          display: inline-block;
+          font-size: 20px;
+          text-align: left;
+          a {
+            text-decoration: none;
+            outline: none;
+            &:visited {
+              color: #000;
+            }
+          }
+        }
+      }
+      &__tags {
+        text-align: left;
+        dispay: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        .tag {
+          display: inline-block;
+          color: #777;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
